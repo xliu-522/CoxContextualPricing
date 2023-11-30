@@ -128,3 +128,4 @@ for repl in range(repl0, repl1+1):
                np.array(rwd_T_fan), delimiter=",")
     np.savetxt(save_dir + "/cumRev_fanReal_fan_%s.csv" % save_name, \
                np.array(rwd_T_fanReal), delimiter=",")
+    np.savetxt(save_dir + "/X_data_%s" % save_name, X)
