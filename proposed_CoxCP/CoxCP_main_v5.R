@@ -1,6 +1,6 @@
 # set working directory to simulation_env folder
 # (default : {~/_ICML2023_supplement/codes})
-#setwd("~/_ICML2023_supplement/codes")
+setwd("/Users/xinruliu/Documents/GitHub/CoxContextualPricing")
 
 # set save directory (default : /{model_name}/{simulation_name})
 src_dir = paste0(getwd(), "/proposed_CoxCP")
